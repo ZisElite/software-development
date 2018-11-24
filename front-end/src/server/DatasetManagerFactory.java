@@ -6,12 +6,11 @@ public class DatasetManagerFactory {
 		;
 	}
 
-	/*
-	 * TODO FIX THIS!!! Cannot return null!
-	 */
+
 	public IDatasetManager create(String className) {
 		switch(className) {
-			case "DatasetManager": return null;
+			case "DatasetManager":
+				return new DataManager();
 			default: return null;
 		}
 

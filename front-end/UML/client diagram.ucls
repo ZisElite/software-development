@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.2.2" icons="true" automaticImage="JPEG" always-add-relationships="false" 
-  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
-  router="FAN">  
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="client.controllers.LineChartPresenter" project="2018-19_CSV-Viewer-ClientOnly" 
     file="/2018-19_CSV-Viewer-ClientOnly/src/client/controllers/LineChartPresenter.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="250" width="414" x="679" y="626"/>    
-    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="-1" width="-1" x="236" y="370"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -15,7 +14,7 @@
   <class id="2" language="java" name="client.controllers.MainAppController" project="2018-19_CSV-Viewer-ClientOnly" 
     file="/2018-19_CSV-Viewer-ClientOnly/src/client/controllers/MainAppController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1121" y="437"/>    
+    <position height="-1" width="-1" x="651" y="402"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -25,7 +24,7 @@
   <class id="3" language="java" name="client.controllers.ScatterChartPresenter" project="2018-19_CSV-Viewer-ClientOnly" 
     file="/2018-19_CSV-Viewer-ClientOnly/src/client/controllers/ScatterChartPresenter.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1110" y="173"/>    
+    <position height="-1" width="-1" x="328" y="112"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -35,7 +34,7 @@
   <class id="4" language="java" name="client.controllers.ScatterChartController" project="2018-19_CSV-Viewer-ClientOnly" 
     file="/2018-19_CSV-Viewer-ClientOnly/src/client/controllers/ScatterChartController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1566" y="196"/>    
+    <position height="-1" width="-1" x="768" y="114"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -46,7 +45,7 @@
     project="2018-19_CSV-Viewer-ClientOnly" 
     file="/2018-19_CSV-Viewer-ClientOnly/src/client/controllers/NameGiverForDatasetController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1548" y="442"/>    
+    <position height="-1" width="-1" x="1098" y="99"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -56,7 +55,7 @@
   <class id="6" language="java" name="client.controllers.AttributePairSelector" project="2018-19_CSV-Viewer-ClientOnly" 
     file="/2018-19_CSV-Viewer-ClientOnly/src/client/controllers/AttributePairSelector.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="535" y="515"/>    
+    <position height="-1" width="-1" x="914" y="647"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -66,7 +65,7 @@
   <class id="7" language="java" name="client.controllers.FilterConstructor" project="2018-19_CSV-Viewer-ClientOnly" 
     file="/2018-19_CSV-Viewer-ClientOnly/src/client/controllers/FilterConstructor.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="603" y="174"/>    
+    <position height="-1" width="-1" x="1122" y="351"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -76,60 +75,62 @@
   <class id="8" language="java" name="client.controllers.TableViewController" project="2018-19_CSV-Viewer-ClientOnly" 
     file="/2018-19_CSV-Viewer-ClientOnly/src/client/controllers/TableViewController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="247" width="499" x="1256" y="631"/>    
-    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="-1" width="-1" x="383" y="677"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
   <dependency id="9">    
+    <bendpoint x="903" y="358"/>    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="5"/>  
+    <end type="TARGET" refId="7"/>  
   </dependency>  
   <dependency id="10">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="6"/>  
+    <end type="TARGET" refId="8"/>  
   </dependency>  
   <dependency id="11">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
+    <end type="TARGET" refId="8"/>  
   </dependency>  
   <dependency id="12">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
+    <end type="TARGET" refId="1"/>  
   </dependency>  
   <dependency id="13">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="6"/>  
+    <end type="TARGET" refId="5"/>  
   </dependency>  
   <dependency id="14">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="7"/>  
+    <end type="TARGET" refId="3"/>  
   </dependency>  
   <dependency id="15">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="8"/>  
+    <end type="TARGET" refId="1"/>  
   </dependency>  
   <dependency id="16">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
+    <end type="TARGET" refId="3"/>  
   </dependency>  
   <dependency id="17">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="7"/>  
+    <end type="TARGET" refId="5"/>  
   </dependency>  
   <dependency id="18">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
+    <end type="TARGET" refId="6"/>  
   </dependency>  
   <dependency id="19">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="8"/>  
+    <end type="TARGET" refId="6"/>  
   </dependency>  
   <dependency id="20">    
+    <bendpoint x="894" y="417"/>    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="5"/>  
+    <end type="TARGET" refId="7"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    

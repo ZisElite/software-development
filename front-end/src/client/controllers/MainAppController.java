@@ -191,7 +191,7 @@ public class MainAppController {
 		int regFlag = datasetManager.filterDataset(oldDatasetName, newDatasetName, attribute, value);
 		if (regFlag <0 )
 			return;
-
+		
 		ArrayList<String[]> data = new ArrayList<String[]>();
 		String [] header = datasetManager.retrieveDataset(newDatasetName, data);
 		TableViewController tbl = new TableViewController(data, header);

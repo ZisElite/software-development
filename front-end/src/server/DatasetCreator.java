@@ -16,6 +16,7 @@ public class DatasetCreator
 		canonicalPath = newPath;
 	}
 	
+	//Holds the dataset's Header and Data, in separate arrayLists
 	public void fillData()
 	{
 		data = reader.load(canonicalPath);
@@ -24,8 +25,10 @@ public class DatasetCreator
 			header.add(x);
 			break;
 		}
+		data.remove(0);
 	}
 	
+	//Holds the dataset's Header and Data, in separate arrayLists, only used when filtering
 	public void fillData(ArrayList<String[]> newData)
 	{
 		data = newData;
@@ -34,6 +37,7 @@ public class DatasetCreator
 			header.add(x);
 			break;
 		}
+		data.remove(0);
 	}
 	
 	public ArrayList<String[]> getHeader()

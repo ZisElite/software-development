@@ -5,7 +5,9 @@ University of Ioannina, Department of Computer Engineering and Computer Science
 ### Made by
 
 Psalidas Zisis
+
 Christos Vasileiou
+
 Unfortunately i don't remember the 3rd member's name, it was 6 years ago
 
 ### disclaimer

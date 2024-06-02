@@ -8,7 +8,7 @@ Psalidas Zisis
 
 Christos Vasileiou
 
-Dimmos Pantazis
+Dimos Pantazis
 
 ### disclaimer
 

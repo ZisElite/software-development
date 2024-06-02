@@ -8,7 +8,7 @@ Psalidas Zisis
 
 Christos Vasileiou
 
-Unfortunately i don't remember the 3rd member's name, it was 6 years ago
+Dimmos Pantazis
 
 ### disclaimer
 
